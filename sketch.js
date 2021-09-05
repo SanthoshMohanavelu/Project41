@@ -3,7 +3,7 @@ var back_img;
 var gameState =0;
 var playerCount = 0;
 var allPlayers;
-var score =0;
+var score = 0;
 var player, form,game;
 var player1,player2;
 var players;
@@ -29,7 +29,7 @@ function preload(){
   obstacleImage = loadImage("images/mushroom.png")
 }
 function setup() {
-  createCanvas(1000, 600);
+  createCanvas(1100, 650);
   database = firebase.database();
   game = new Game();
   game.getState();
